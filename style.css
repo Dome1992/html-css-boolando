@@ -1,0 +1,93 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+  background-color: rgb(255, 94, 0);
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+footer{
+  background-color: rgb(1, 22, 39);
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 70%;
+}
+.conteiner{
+    display: flex;
+    background-color: beige;
+    min-height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+  background-color: cornflowerblue;
+  width: calc(70% / 3);
+  height: 450px;
+  border: 1px;
+  margin:5px;
+  position: relative;
+}
+.prodotto{
+    position: relative;
+}
+img{
+    width: 100%;
+}
+
+.img1{
+    position: absolute;
+    
+}
+.img2{
+    position: relative;
+    display: block;
+}
+.img1:hover .img2{
+    display: block;
+}
+.label{
+    position: absolute;
+    bottom:20px;
+    left: 0px;
+    padding:5px;
+    background-color: red;
+    font-size: small;
+    color: white;
+}
+
+.fa-heart{
+    position: absolute;
+    top:10px;
+    right:5px;
+}
+.link{
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    font-size: small;
+    color: white;
+    padding: 3px;
+}
+h3{
+    color: white;
+}
+.boolean{
+    width: 150px;
+}
+
+
+
